@@ -24,12 +24,21 @@ images/
 Features
 --------
 - Simple static HTML/CSS page, easy to modify.
-- Images organized under the `images/` directory.
+- Layouts built using **Flexbox** and **CSS Grid** for flexible and modular sections.
+- Smooth hover effects and subtle animations using CSS **transitions** and **transforms**.
+- Responsive image handling with `object-fit` and a horizontally scrollable image gallery.
+- Visual styling using CSS **linear-gradient**, fixed header, and rounded elements.
 
-Technologies
-------------
-- HTML
-- CSS
+Techniques & Technologies
+-------------------------
+- **HTML** (semantic structure)
+- **CSS** (Flexbox, CSS Grid, Transforms, Transitions, Object-fit, Gradients)
+- Google Fonts (`Jost`)
+- No JavaScript — purely a static HTML/CSS project (can be extended with JS for interactivity)
+
+Notes on responsiveness
+-----------------------
+- The layout uses flexible CSS primitives (Flexbox & Grid) but there are no media queries yet. Add responsive breakpoints to improve the mobile experience.
 
 Author
 ------
