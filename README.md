@@ -1,17 +1,17 @@
-# صفحة رئيسية لموقع محفظة (DEPI Task)
+# Portfolio Home Page (DEPI Task)
 
-وصف
-----
-مشروع بسيط يحتوي على صفحة رئيسية لعرض محفظة (Portfolio). يتكون المشروع من ملف `index.html` وملف تنسيق `style.css` ومجلد `images/` الذي يحتوي على الصور المستخدمة.
+## Description
 
-كيفية العرض
------------
-- لعرض المشروع محليًا: افتح الملف `index.html` في متصفح الويب.
-- اقتراح: استخدم إضافة Live Server في VS Code لتطوير أسرع (عرض تلقائي عند الحفظ).
-- يمكن أيضًا نشر المشروع باستخدام **GitHub Pages** لعرضه على الويب.
+A simple static portfolio home page. The project contains `index.html`, `style.css`, and an `images/` folder with assets used by the page.
 
-هيكل المجلد
------------
+## How to view
+
+- Open `index.html` in a web browser to view locally.
+- Tip: Use the Live Server extension in VS Code for automatic reload while developing.
+- You can also publish the project using **GitHub Pages**.
+
+## Project structure
+
 ```
 index.html
 style.css
@@ -21,24 +21,37 @@ images/
   └─ 3/
 ```
 
-الميزات
--------
-- صفحة ثابتة HTML/CSS بسيطة وسهلة التعديل.
-- صور منظمة في مجلد `images/`.
+## Features
 
-التقنيات
---------
-- HTML
-- CSS
+- Simple static HTML/CSS page, easy to modify.
+- Layouts built using **Flexbox** and **CSS Grid** for flexible and modular sections.
+- Smooth hover effects and subtle animations using CSS **transitions** and **transforms**.
+- Responsive image handling with `object-fit` and a horizontally scrollable image gallery.
+- Visual styling using CSS **linear-gradient**, fixed header, and rounded elements.
 
-المؤلف
-------
+## Techniques & Technologies
+
+- **HTML** (semantic structure)
+- **CSS** (Flexbox, CSS Grid, Transforms, Transitions, Object-fit, Gradients)
+- Google Fonts (`Jost`)
+- No JavaScript — purely a static HTML/CSS project (can be extended with JS for interactivity)
+
+## Notes on responsiveness
+
+- The layout uses flexible CSS primitives (Flexbox & Grid) but there are no media queries yet. Add responsive breakpoints to improve the mobile experience.
+
+## Author
+
 - Mohamed Alkafory
 
-ملاحظات
--------
-- يمكن توسيع المشروع بإضافة صفحات إضافية، أو استخدام JavaScript لإضافة تفاعل.
+## Notes
 
-ترخيص
------
-- رخصة مفتوحة: يمكنك اختيار إضافة ملف `LICENSE` (مثل MIT) إذا رغبت بذلك.
+- The project can be extended with additional pages or JavaScript for interactivity.
+
+## License
+
+- Add a `LICENSE` file (e.g., MIT) if you want to specify a license.
+
+## Published
+
+This project can be hosted with GitHub Pages at `https://<username>.github.io/<repo>/`.
