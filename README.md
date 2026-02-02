@@ -1,17 +1,17 @@
-# صفحة رئيسية لموقع محفظة (DEPI Task)
+# Portfolio Home Page (DEPI Task)
 
-وصف
-----
-مشروع بسيط يحتوي على صفحة رئيسية لعرض محفظة (Portfolio). يتكون المشروع من ملف `index.html` وملف تنسيق `style.css` ومجلد `images/` الذي يحتوي على الصور المستخدمة.
-
-كيفية العرض
+Description
 -----------
-- لعرض المشروع محليًا: افتح الملف `index.html` في متصفح الويب.
-- اقتراح: استخدم إضافة Live Server في VS Code لتطوير أسرع (عرض تلقائي عند الحفظ).
-- يمكن أيضًا نشر المشروع باستخدام **GitHub Pages** لعرضه على الويب.
+A simple static portfolio home page. The project contains `index.html`, `style.css`, and an `images/` folder with assets used by the page.
 
-هيكل المجلد
+How to view
 -----------
+- Open `index.html` in a web browser to view locally.
+- Tip: Use the Live Server extension in VS Code for automatic reload while developing.
+- You can also publish the project using **GitHub Pages**.
+
+Project structure
+-----------------
 ```
 index.html
 style.css
@@ -21,24 +21,28 @@ images/
   └─ 3/
 ```
 
-الميزات
--------
-- صفحة ثابتة HTML/CSS بسيطة وسهلة التعديل.
-- صور منظمة في مجلد `images/`.
-
-التقنيات
+Features
 --------
+- Simple static HTML/CSS page, easy to modify.
+- Images organized under the `images/` directory.
+
+Technologies
+------------
 - HTML
 - CSS
 
-المؤلف
+Author
 ------
 - Mohamed Alkafory
 
-ملاحظات
--------
-- يمكن توسيع المشروع بإضافة صفحات إضافية، أو استخدام JavaScript لإضافة تفاعل.
-
-ترخيص
+Notes
 -----
-- رخصة مفتوحة: يمكنك اختيار إضافة ملف `LICENSE` (مثل MIT) إذا رغبت بذلك.
+- The project can be extended with additional pages or JavaScript for interactivity.
+
+License
+-------
+- Add a `LICENSE` file (e.g., MIT) if you want to specify a license.
+
+Published
+---------
+This project can be hosted with GitHub Pages at `https://<username>.github.io/<repo>/`.
